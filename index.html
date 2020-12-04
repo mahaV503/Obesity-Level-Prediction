@@ -5,6 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Obese Prediction</title>
 </head>
+<!-- [['Female', 'Male'],
+   ['yes', 'no'], 
+   ['no', 'yes'], 
+   ['Sometimes', 'Frequently', 'Always', 'no'], 
+   ['no', 'yes'],
+    ['no', 'yes'], 
+    ['no', 'Sometimes', 'Frequently', 'Always'],
+     ['Public_Transportation', 'Walking', 'Automobile', 'Motorbike', 'Bike']]
+[[2.97, 3.06], 
+[3.3, 1.72], 
+[2.78, 3.05], 
+[3.29, 1.11, 1.81, 3.84], 
+[3.02, 2.7],
+ [3.04, 2.56], 
+ [2.62, 3.17, 3.51, 3.02],
+  [3.01, 2.14, 3.17, 2.09, 2.43]]
+
+Gender,Family,FAVC,CAEC,Smoke,SCC,CALC,MTRANS -->
 <body>
   <form>
     <label for="age">AGE</label><br>
@@ -12,23 +30,32 @@
 
     <label for="CAEC">Consumption of food between meals</label><br>
     <select type="text" id="CAEC">
-      <option value=
+      <option value="3.29">Sometimes</option>
+      <option value="1.11">Frequently</option>
+      <option value="1.81">Always</option>
+      <option value="3.84">no</option>
+    </select>
+    <label for="family_history_with_overweight">family_history_with_overweight</label><br>
+    <select type="text" id="CAEC">
+      <option value="3.3">Yes</option>
+      <option value="1.72">No</option>
+    </select>
+    <label for="CALC">Consumtion of Alchol</label><br>
+    <select type="text" id="CAEC">
+      <option value="2.62">no</option>
+      <option value="3.17">Sometimes</option>
+      <option value="3.51">Frequently</option>
+      <option value="3.02">Always</option>
     </select>
 
-    <label for="family_history_with_overweight">family_history_with_overweight</label><br>
-    <input type="text" id="family_history_with_overweight">
-
-    <label for="CALC">Consumtion of Alchol</label><br>
-    <input type="text" id="CALC">
-
     <label for="Weight">WEIGHT</label><br>
-    <input type="text" id="Weight">
+    <input type="number" id="Weight">
 
     <label for="CH2O">Consumtion of Water</label><br>
-    <input type="text" id="CH2O">
+    <input type="number" id="CH2O">
 
     <label for="FAF">Physical activity frequency</label><br>
-    <input type="text" id="FAF">
+    <input type="number" id="FAF">
 
   </form>
   request.args['age'],
