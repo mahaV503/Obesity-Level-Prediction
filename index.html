@@ -26,7 +26,7 @@ Gender,Family,FAVC,CAEC,Smoke,SCC,CALC,MTRANS -->
 <body>
   <form>
     <label for="age">AGE</label><br>
-    <input type="text" id="age">
+    <input type="number" id="age" min="22" max="75"><br>
 
     <label for="CAEC">Consumption of food between meals</label><br>
     <select type="text" id="CAEC">
@@ -34,34 +34,34 @@ Gender,Family,FAVC,CAEC,Smoke,SCC,CALC,MTRANS -->
       <option value="1.11">Frequently</option>
       <option value="1.81">Always</option>
       <option value="3.84">no</option>
-    </select>
+    </select><br>
     <label for="family_history_with_overweight">family_history_with_overweight</label><br>
     <select type="text" id="CAEC">
       <option value="3.3">Yes</option>
       <option value="1.72">No</option>
-    </select>
+    </select><br>
     <label for="CALC">Consumtion of Alchol</label><br>
     <select type="text" id="CAEC">
       <option value="2.62">no</option>
       <option value="3.17">Sometimes</option>
       <option value="3.51">Frequently</option>
       <option value="3.02">Always</option>
-    </select>
+    </select><br>
 
-    <label for="Weight">WEIGHT</label><br>
-    <input type="number" id="Weight">
+    <label for="Weight">WEIGHT(Kgs)</label><br>
+    <input type="number" id="Weight" min="60" max="120"><br>
 
     <label for="CH2O">Consumtion of Water</label><br>
-    <input type="number" id="CH2O">
+    <input type="number" id="CH2O" min="0" max="5"><br>
 
     <label for="FAF">Physical activity frequency</label><br>
-    <input type="number" id="FAF">
-
-  </form>
-  request.args['age'],
+    <input type="number" id="FAF" min="0" max="5"><br>
+    <input type="submit">
+  </form><!--
+                            request.args['age'],
                             request.args['CAEC'],
                             request.args['family_history_with_overweight'],
                             request.args['CALC'],request.args['Weight'],
-                            request.args['CH2O'],request.args['FAF']]])
+                            request.args['CH2O'],request.args['FAF']]])   -->
 </body>
 </html>
