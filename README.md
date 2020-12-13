@@ -10,8 +10,10 @@ After getting the data, Now have to encode the features i.e we have to change fr
 but I used Leave one out encoding why?
 
 ``` 
-To overcome such challenge, Leave-One-Out Encoding produces the mean value of the target over all rows for the same categorical level, excluding the row itself. 
-It leaves the target value of the row itself out — thus the name Leave-One-Out. This avoids direct target leakage.```
+To overcome such challenge,Leave-One-Out Encoding produces the mean value of the target over all rows for the same categorical level, excluding the row itself. 
+It leaves the target value of the row itself out — thus the name Leave-One-Out. This avoids direct target leakage.
+
+```
 
 I have read about different types of encoding techniques and went with LOO.
 
