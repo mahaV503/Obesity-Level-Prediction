@@ -25,7 +25,9 @@ Now normalizing the data, this is done to ensure that none of the variables have
 So there are somany variables given in the dataset, so inorder to remove the non significant variables we will be doing feature extraction.. so in here there are so many techniques 
 I have tested so many techniques at last I have used Pearson Correlation because I think it justified common sense 
 
-This is the image [Pearson Correlation.png "Pearson Correlation.png"]
+This is the image 
+![Image of Pearson correlation ](https://github.com/amahavishnua/MlprojectFlask/blob/master/Pearson%20Correlation.png)
+
 
 From this we can see strongly corelated features for the 0 column which is the target variable i.e ** Obesity TYpe** Now I have taken top 7 into consideration
 I started to build the model
