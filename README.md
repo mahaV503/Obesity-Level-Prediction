@@ -1,4 +1,4 @@
-# MlprojectFlask
+# Obesity Prediction API
 
 So in this project I have downloaded data from Kaggle, [click here](https://www.kaggle.com/ankurbajaj9/obesity-levels)
 
