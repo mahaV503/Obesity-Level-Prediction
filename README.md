@@ -20,7 +20,7 @@ Now normalizing the data, this is done to ensure that none of the variables have
 
 ****
 
-##Step 2 Fature Extraction
+## Step 2 Fature Extraction
 
 So there are somany variables given in the dataset, so inorder to remove the non significant variables we will be doing feature extraction.. so in here there are so many techniques 
 I have tested so many techniques at last I have used Pearson Correlation because I think it justified common sense 
