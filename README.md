@@ -34,14 +34,14 @@ I started to build the model
 
 ****
 
-##Step 3 Building a Model
+## Step 3 Building a Model
 
 Now I went Polynomial Regression, I have used poly to transofrm the variables and then I feeded them to Logistic Regression model.
 As the training and testing data are very less I have got very less accuracy of 71% Which is not bad when given so many features and such less data..
 
 ****
 
-##Step 4 Deploying Model
+## Step 4 Deploying Model
 
 After creating the model I exported the model and using Flask I created an API which takes the features from the index.html and throwout the type of possible **Obesity Type**
 I tried deploying on AWS instances but some small error with encodings keep popping on AWS instance(I installed all the libraries I used in AWS) cant figure out..
